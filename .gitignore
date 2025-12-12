@@ -40,11 +40,14 @@ ENV/
 *.ckpt
 *.pt
 *.pth
-data/
-datasets/
-*.csv
+
+data/*
+datasets/*
+# *.csv
 *.tsv
 *.parquet
+!data/ndtv_data_final.csv
+# !data/preprocessed_data.csv
 
 # IDE
 .vscode/
